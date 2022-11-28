@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+/* #root {
+  padding-left: 2rem;
+  padding-right: 2rem;
+} */
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h3{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h4{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h5 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight:600px;
+} 
+.mainpage {
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+header {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  border-bottom: 1px solid rgb(0 0 0 / 18%);;
+}
+.row {
+  padding-top: 1rem;
+}
+.Col {
+  padding-bottom: 1rem;
+}
+.offcanvas {
+  height: 75vh
+}
+.sort {
+  width: 6rem;
+}
+
+
+.gallery {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-pic {
+  width: 13rem;
+  height: 16rem;
+  object-fit: cover;
+} 
+.cardholder {
+  padding-bottom: 2rem;
+}
+
+.cardname {
+  text-align: left;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.favorite-button{
+  height: 2rem;
+  color: pink;
+}
+
+.cardbod {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+}
+
+
+.left {
+    border-radius: 25px;
+    border: black solid 1px;
+    padding: 10px 10px 10px 10px;
+    position: sticky;
+    top: 20px;
+}
+
+.Container {
+  width: 100vw
+}
+
+.col2Head{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items:flex-end;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(0 0 0 / 18%)
+}
+.buttons{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+.button1 .button2{
+  height: 1rem;
+}
+/* .button1{
+  padding-right: 10px;
+}
+.button2{
+  padding-left: 10px
+} */
